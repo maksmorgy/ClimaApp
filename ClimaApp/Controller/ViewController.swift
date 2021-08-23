@@ -26,9 +26,6 @@ class ViewController: UIViewController {
     @IBAction func locationPressed(_ sender: UIButton) {
         locationManager.requestLocation()
     }
-    
-    
-    
 }
 
 extension ViewController: UITextFieldDelegate {
